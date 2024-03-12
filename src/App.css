@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-
 body{
     background-color: black;
     color: white;
@@ -8,14 +7,23 @@ body{
     max-width: 1800px;
 }
 
-#root{
+#root {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 0.8fr 3fr 1.2fr;
+}
+
+.sidebar, .trends {
+    margin: 10%;
+}
+
 .timeline {
-    flex: 0 0 800px;
+    flex: 30% 40% 30%;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
@@ -192,4 +200,13 @@ body{
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+/* Sidebar content */
+
+.sideBarComponent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
 }

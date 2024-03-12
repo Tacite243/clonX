@@ -5,10 +5,8 @@ const galery = ["icons/Media.svg", "icons/Gif.svg", "icons/Lists.svg", "icons/Em
 export default function TweetEditorActions() {
     const [table, setTable] = useState(galery)
     return (
-        <>
-            <div className="tweet-editor-actions">
-                {table.map((item) => <img src={item} alt="" />)}
-            </div>
-        </>
+        <div className="tweet-editor-actions">
+            {table.map((item) => <img src={item} alt="" />)}
+        </div>
     )
 }
