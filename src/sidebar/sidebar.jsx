@@ -49,7 +49,7 @@ export default function SideBar() {
                 (item) =>
                     <div className="sideBarComponent">
                         <img src={item.image} alt="" />
-                        <h1 className="page-title">{item.title}</h1>
+                        <h1 className="aux-title">{item.title}</h1>
                     </div>)
             }
             <div className="sideBarComponent">

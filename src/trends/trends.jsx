@@ -1,9 +1,12 @@
+import TrendsForYou from "../trendsForYou/trendsForYou";
+import SeachBar from "./searchBar/seachBar";
 
 
 export default function Trends(){
     return(
         <div className="trends">
-            <h1>TRENDS</h1>
+            <SeachBar />
+            <TrendsForYou />
         </div>
     )
 }

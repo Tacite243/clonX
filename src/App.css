@@ -210,3 +210,41 @@ body{
     align-items: center;
     gap: 5%;
 }
+.aux-title{
+    font-size: 1rem;
+}
+
+/* trends bar */
+
+.seachBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    gap: 7%;
+    padding: 0 7% 0 7%;
+    background-color: #2F3336;
+}
+.seachBar input {
+    height: 40px;
+    width: 70%;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    background-color: #2F3336;
+    color: white;
+    resize: none;
+}
+.for-you {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45%;
+}
+.trends-for-you{
+    background-color: #2F3336;
+    height: auto;
+    width: 100%;
+    margin-top: 3%;
+    border-radius: 15px;
+}
