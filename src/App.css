@@ -243,8 +243,19 @@ body{
 }
 .trends-for-you{
     background-color: #2F3336;
-    height: auto;
+    height: 35%;
     width: 100%;
     margin-top: 3%;
     border-radius: 15px;
+    padding: 0% 4% 0 4%;
+}
+.trentInner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 44%;
+    margin-bottom: 30px;
+}
+.trentInner .left p, .trentInner .left h2 {
+    margin-bottom: -25px;
 }
