@@ -15,7 +15,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 0.8fr 3fr 1.2fr;
+    grid-template-columns: 0.8fr 3fr 1.5fr;
 }
 
 .sidebar,
@@ -24,7 +24,6 @@ body {
 }
 
 .timeline {
-    flex: 30% 40% 30%;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
@@ -284,9 +283,6 @@ body {
 
 .show-more {
     appearance: none;
-    /* -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none; */
     border: none;
     background: none;
     padding: 0;
@@ -294,7 +290,7 @@ body {
     font-size: inherit;
     cursor: pointer;
     color: #1D9BF0;
-    margin-top: 10%;
+    /* margin-top: -3%; */
 }
 .show-more:hover {
     color: aliceblue;
@@ -317,10 +313,31 @@ body {
     flex-direction: row;
     align-items: center;
 }
-.follow-left, .follow-medium {
+.follow-left {
     display: flex;
     flex-direction: row;
-    background: #1D9BF0;
     gap: 10px;
     align-items: center;
+    width: 200px;
+}
+.follow-profile-name {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.follow-medium p {
+    margin: 0;
+    padding: 0;
+}
+.follow-btn {
+    appearance: none;
+    border: none;
+    border-radius: 25px;
+    padding: 7.5px 15px 7.5px 15px;
+    margin: 0 70%;
+    width: 100%;
+    font-size: inherit;
+    cursor: pointer;
+    color: #6E767D;;
+    margin-top: 10%;
 }

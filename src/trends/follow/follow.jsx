@@ -19,9 +19,10 @@ export default function Follow() {
                                 <div className="follow-img">
                                     <img src={item.avatarImage} alt="" />
                                 </div>
-                                <p className="follow-profile-name">{item.author.title}</p>
-                                <div className="verified"><img src={Verified} alt="" /></div>
-                                <p className="follow-tag">{item.author.tag}</p>
+                                <div className="follow-medium">
+                                    <p className="follow-profile-name">{item.author.title}<span className="follow-verified"><img src={Verified} alt="" /></span></p>
+                                    <p className="follow-tag">{item.author.tag}</p>
+                                </div>
                             </div>
                             <div className="follow-right">
                                 <FollowBtn />
@@ -30,7 +31,9 @@ export default function Follow() {
                     )
                 }
             )}
-            <ShowMore />
+            <div>
+                <ShowMore />
+            </div>
         </div>
     )
 }
