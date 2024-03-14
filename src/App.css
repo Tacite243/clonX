@@ -150,7 +150,7 @@ body {
     gap: .5rem;
 }
 
-.tweet-title {
+.tweet-title, .follow-left {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -163,11 +163,11 @@ body {
     height: auto;
 }
 
-.tweet-title-author {
+.tweet-title-author, .follow-profile-name {
     font-size: 1rem;
 }
 
-.tweet-title-details {
+.tweet-title-details, .follow-tag {
     color: #6E767D;
 }
 
@@ -257,7 +257,7 @@ body {
 
 .trends-for-you {
     background-color: #2F3336;
-    height: 41%;
+    height: 34%;
     width: 93.5%;
     margin-top: 3%;
     border-radius: 15px;
@@ -268,10 +268,12 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 44%;
+    gap: 36%;
     margin-bottom: 30px;
 }
-
+.left{
+    min-width: 145px;
+}
 .trentInner .left p,
 .trentInner .left h2 {
     margin-bottom: -25px;
@@ -296,4 +298,29 @@ body {
 }
 .show-more:hover {
     color: aliceblue;
+}
+
+/* follow bar */
+
+.follow {
+    background-color: #2F3336;
+    height: auto;
+    width: 93.5%;
+    margin-top: 3%;
+    border-radius: 15px;
+    padding: 0.3% 4% 0 4%;
+    display: flex;
+    flex-direction: column;
+}
+.follow-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.follow-left, .follow-medium {
+    display: flex;
+    flex-direction: row;
+    background: #1D9BF0;
+    gap: 10px;
+    align-items: center;
 }
