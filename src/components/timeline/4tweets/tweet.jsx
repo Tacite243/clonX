@@ -1,7 +1,7 @@
-import { TweetFragment } from './tweetComponents/tweetComponent'
-import tweetCollection from './tweetData'
+import { TweetFragment } from './tweetComponents/tweetComponent';
+import tweetCollection from './tweetData';
 
-export function Tweet(){
+export function TweetContainer(){
     return (
         <>
            <div className="tweets">

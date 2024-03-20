@@ -1,8 +1,7 @@
-import { useState } from 'react'
-import './App.css'
-import Timeline from './components/Timeline'
-import SideBar from './sidebar/sidebar'
-import Trends from './trends/trends'
+import './App.css';
+import SideBar from './components/sidebar/sidebar';
+import Timeline from './components/timeline/Timeline';
+import Trends from './components/trends/trends';
 
 export default function App() {
   return (

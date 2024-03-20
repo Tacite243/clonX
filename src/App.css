@@ -22,7 +22,13 @@ body {
 .trends {
     margin: 10%;
 }
-
+.sidebar-content {
+    position: fixed;
+}
+.trends-content {
+    position: sticky;
+    top: 0;
+}
 .timeline {
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;

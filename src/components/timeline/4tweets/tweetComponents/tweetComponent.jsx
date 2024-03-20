@@ -1,5 +1,5 @@
-import tweetImage from '../tweetComponents/tweetAssets/Tweet-Image.png'
-import Verified from '../tweetComponents/tweetAssets/Verified.png'
+import tweetImage from './tweetAssets/Tweet-Image.png'
+import Verified from './tweetAssets/Verified.png'
 import { TweetContent } from './tweetContent'
 
 

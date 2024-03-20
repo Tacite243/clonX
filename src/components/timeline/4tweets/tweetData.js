@@ -1,6 +1,6 @@
-import tweetAvatar1 from '../../assets/Profile-CNN.svg'
-import tweetAvatar2 from '../../assets/Tweet-Profile-Photo.png'
-import tweetAvatar3 from '../../assets/image.png'
+import tweetAvatar1 from '../../../assets/Profile-CNN.svg'
+import tweetAvatar2 from '../../../assets/Tweet-Profile-Photo.png'
+import tweetAvatar3 from '../../../assets/image.png'
 
 const tweetCollection = [
     {
@@ -49,6 +49,21 @@ const tweetCollection = [
             msg: '6.8K',
             replie: '36.6K',
             like: '267.1K'
+        }
+    },
+    {
+        innetText: `hello literally everyone`,
+        author: {
+            title: 'Tweeter',
+            tag: '@Tweeter',
+            ms: 'Oct4'
+        },
+        hasImage: false,
+        avatarImage: tweetAvatar3,
+        action: {
+            msg: '118.7K',
+            replie: '785.4K',
+            like: '3.3M'
         }
     },
     {

@@ -1,7 +1,7 @@
-import tweetCollection from "../../components/4tweets/tweetData";
-import Verified from "../../components/4tweets/tweetComponents/tweetAssets/Verified.png"
+import Verified from "../../timeline/4tweets/tweetComponents/tweetAssets/Verified.png"
 import FollowBtn from "./followBtn/followBtn";
 import ShowMore from "../trendsForYou/showMore/showMore";
+import tweetCollection from "../../timeline/4tweets/tweetData";
 
 
 const followData = tweetCollection

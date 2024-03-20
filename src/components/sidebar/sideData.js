@@ -1,5 +1,5 @@
-import { useState } from "react";
-import Tweet from "../components/boutons/tweets";
+import avatar from "/images/profile.jpg";
+
 
 const sideContent = [
     {
@@ -40,21 +40,16 @@ const sideContent = [
     }
 ];
 
-export default function SideBar() {
-    const [side, setSide] = useState(sideContent);
-    return (
-        <div className="sidebar">
+export const endCard = [
+    {
+        avatar : avatar,
+        content : {
+            title : "Bradley Ortiz",
+            span : "@bradley_",
+            spred : "/icons/More-2.png",
+        }
+    }
+];
 
-            {side.map(
-                (item) =>
-                    <div className="sideBarComponent">
-                        <img src={item.image} alt="" />
-                        <h1 className="aux-title">{item.title}</h1>
-                    </div>)
-            }
-            <div className="sideBarComponent">
-                <Tweet />
-            </div>
-        </div>
-    )
-}
+
+export default sideContent
