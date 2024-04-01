@@ -1,8 +1,11 @@
-# React + Vite
+# Clone X (twitter)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app is a clone of one part of tweetter (X)
+maked to learn react js which is principal technologie used
 
-Currently, two official plugins are available:
+# Running
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+to run this application :
+
+- Install React with vite toolbox
+- In the commande line, tap "npm run project"
