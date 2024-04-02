@@ -23,6 +23,7 @@
                 "ms": "2h"
             },
             "hasImage": true,
+            "tweetImage" : "/tweetAssets/Verified.png",
             "avatarImage": "/assets/Tweet-Profile-Photo.png",
             "action": {
                 "msg": 19,

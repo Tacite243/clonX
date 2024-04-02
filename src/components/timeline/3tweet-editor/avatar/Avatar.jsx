@@ -5,7 +5,7 @@ export default function Avatar() {
     return (
         <>
             <div className="avatar">
-                <Link to = "/profile"><img src="/images/profile.jpg" alt="avatar" /></Link>
+                <Link to = "/myaccount"><img src="/images/profile.jpg" alt="avatar" /></Link>
             </div>
         </>
     )
