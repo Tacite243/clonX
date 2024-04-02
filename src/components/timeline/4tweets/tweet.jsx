@@ -1,6 +1,7 @@
+
 import { TweetFragment } from './tweetComponents/tweetComponent';
-import tweetCollection from './tweetData';
 import tweet from '../../../data.json';
+
 
 
 export function TweetContainer() {
@@ -10,7 +11,7 @@ export function TweetContainer() {
             <div className="tweets">
                 {
                     inTweetCollection.map((item) => {
-                        return <TweetFragment key={tweetCollection.indexOf()} innerText={item.innetText}
+                        return <TweetFragment key={inTweetCollection.indexOf()} innerText={item.innetText}
                             Author={item.author.title}
                             dtTag={item.author.tag}
                             dtDate={item.author.ms}

@@ -1,13 +1,13 @@
-import Verified from "/tweetAssets/Verified.png"
+import Verified from "/tweetAssets/Verified.png";
 import FollowBtn from "./followBtn/followBtn";
 import ShowMore from "../trendsForYou/showMore/showMore";
-import tweetCollection from "../../timeline/4tweets/tweetData";
+import tweet from "../../../data.json";
 
 
-const followData = tweetCollection
+
 
 export default function Follow() {
-
+    const followData = tweet.tweetCollection;
     return (
         <div className="follow">
             <h1 className="aux-title">Who to follow</h1>
