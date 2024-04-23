@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Profile from "./pages/Profile.jsx";
+import Profile from "./pages/profile.jsx";
 import Timeline from "./pages/Timeline.jsx";
 
 const router = createBrowserRouter([

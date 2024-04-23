@@ -21,7 +21,7 @@ export default function TweetActions() {
     const data = { ...tweet };
     data.actions.state = !data.actions.state;
     axios
-      .put(`http://localhost:3000/tweets/${id}`, data)
+      .put(`https://x-clone-backend-7yd3.onrender.com/tweets/${id}`, data)
       .then((res) => setAction(res.data.actions.state))
       .catch((err) => console.error(err));
   };

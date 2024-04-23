@@ -1,5 +1,5 @@
 import React from "react";
-import profil from "../../../public/images/profile.jpg";
+import profil from "/images/profile.jpg";
 import more from "/Icons/More-2.svg";
 import privacy from "/Icons/Private.svg";
 import { Link } from "react-router-dom";

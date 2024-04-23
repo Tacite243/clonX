@@ -5,23 +5,23 @@ export const Context = createContext(null);
 
 const TweetContext = ({ children }) => {
   const { data: tweetData } = useFetch(
-    "https://clon-x.vercel.app/tweets"
+    "https://x-clone-backend-7yd3.onrender.com/tweets"
   );
   const [tweets, setTweets] = useState(null);
   useEffect(() => setTweets(tweetData), [tweetData]);
 
   const { data: currentData } = useFetch(
-    "https://clon-x.vercel.app/current-user"
+    "https://x-clone-backend-7yd3.onrender.com/current-user"
   );
   const [current, setCurrent] = useState(null);
   useEffect(() => setCurrent(currentData), [currentData]);
 
-  const { data: navData } = useFetch("https://clon-x.vercel.app/nav");
+  const { data: navData } = useFetch("https://x-clone-backend-7yd3.onrender.com/nav");
   const [nav, setNav] = useState(null);
   useEffect(() => setNav(navData), [navData]);
 
   const { data: trendData } = useFetch(
-    "https://clon-x.vercel.app/trends"
+    "https://x-clone-backend-7yd3.onrender.com/trends"
   );
   const [trend, setTrend] = useState(null);
   useEffect(() => setTrend(trendData), [trendData]);
